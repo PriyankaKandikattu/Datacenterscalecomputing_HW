@@ -1,8 +1,0 @@
-FROM python
-
-WORKDIR /app
-COPY pipeline.py HW1_pipeline1.py
-copy BL-Flickr-Images-Book.csv Source.csv
-RUN pip install pandas
-
-ENTRYPOINT [ "bash" ]
